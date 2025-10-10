@@ -8,12 +8,12 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-permissions:
-  contents: write
-jobs:
+
+jobs:  
   build-deploy:
     runs-on: ubuntu-latest
-
+    permissions:
+     contents: write
     # Skip if issue has label "do-not-publish"
     if: |
       github.event_name == 'workflow_dispatch' ||
