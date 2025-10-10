@@ -1,11 +1,12 @@
 ---
-title: 💭 Issues Blog
+title: Wafwa Blog
 ---
 
 {{< lead >}}
-Effortlessly write and publish on GitHub
+Write something.
 {{< /lead >}}
 
-Use GitHub Issues to capture thoughts and manage contents, publish as a website automatically.
+Music. Art. Literature.
+📗📮🎹
 
-<sup>[RSS Feed](./index.xml). Content generated from [Issues · imfing/issues-blog](https://github.com/imfing/issues-blog/issues?q=is:issue+is:closed).</sup>
+<sup>[RSS Feed](./index.xml). Thanks [imfing].(https://github.com/imfing/issues-blog/).</sup>
