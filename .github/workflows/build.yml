@@ -35,6 +35,10 @@ jobs:
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.151.0'  # 建议和仓库的 .hugo_build.lock 中版本一致，避免版本兼容问题
+          extended: true  # 必须开启！Congo 主题依赖扩展版处理 CSS 等资源，否则模板解析失败
+          modules: true   # 仓库用 Hugo Modules 管理主题，开启后自动拉取主题模块
       - name: Check Hugo Modules (验证是否加载 Congo 主题)
         run: hugo mod graph  # 该命令会列出所有已加载的模块，包括 Congo 主题
     
