@@ -12,7 +12,7 @@ title = "Blog"
 
 dateFormat = "2 January 2006"
 
-[author]
+#[author]
   # name = ""
   # image = "img/author.jpg"
   # headline = "I'm only human"
