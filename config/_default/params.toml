@@ -9,6 +9,8 @@ colorScheme = "congo"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
 
+themeColor = "#22c55e"  # 推荐绿色值，也可换 #10b981（深绿）、#4ade80（浅绿）
+
 enableSearch = false
 enableCodeCopy = false
 
