@@ -7,18 +7,18 @@ rtl = false
 
 title = "Blog"
 # logo = "img/logo.jpg"
-description = "Publish GitHub Issues as blog or newsletter via GitHub actions automatically"
-copyright = "© 2022 Fing"
+#description = "Publish GitHub Issues as blog or newsletter via GitHub actions automatically"
+#copyright = "© 2022 Fing"
 
 dateFormat = "2 January 2006"
 
 [author]
   # name = ""
   # image = "img/author.jpg"
-  # headline = "I'm only human"
-  # bio = "A little bit about you"
+   headline = "I'm only human"
+   bio = "A little bit about you"
   # links = [
-  #   { email = "mailto:hello@your_domain.com" },
+     { email = "mailto:wafwa00@protonmail.com" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
