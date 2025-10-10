@@ -35,7 +35,9 @@ jobs:
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
-
+        with:
+          hugo-version: '0.151.0'  # 和当前版本一致，也可指定主题要求的最低版（如0.87.0+）
+          extended: true  # 关键：启用扩展版，解决主题兼容性问题
       - name: Build Hugo Site
         run: hugo --gc --minify
 
