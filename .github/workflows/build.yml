@@ -32,12 +32,13 @@ jobs:
           deno run --allow-net --allow-env --allow-read --allow-write scripts/main.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+      - name: Check Hugo Modules (验证是否加载 Congo 主题)
+        run: hugo mod graph  # 该命令会列出所有已加载的模块，包括 Congo 主题
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '0.151.0'  # 和当前版本一致，也可指定主题要求的最低版（如0.87.0+）
-          extended: true  # 关键：启用扩展版，解决主题兼容性问题
+     #   with:
+    #      hugo-version: '0.151.0'  # 和当前版本一致，也可指定主题要求的最低版（如0.87.0+）
+   #       extended: true  # 关键：启用扩展版，解决主题兼容性问题
       - name: Build Hugo Site
         run: hugo --gc --minify
 
