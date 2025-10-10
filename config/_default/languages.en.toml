@@ -7,12 +7,12 @@ rtl = false
 
 title = "Blog"
 # logo = "img/logo.jpg"
-#description = "Publish GitHub Issues as blog or newsletter via GitHub actions automatically"
-#copyright = "© 2025"
+description = "Publish GitHub Issues as blog or newsletter via GitHub actions automatically"
+copyright = "© 2025"
 
 dateFormat = "2 January 2006"
 
-#[author]
+[author]
   # name = ""
   # image = "img/author.jpg"
   # headline = "I'm only human"
