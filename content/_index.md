@@ -9,4 +9,4 @@ Write something.
 Music. Art. Literature.
 📗📮🎹
 
-<sup>[RSS Feed](./index.xml). Thanks [imfing].(https://github.com/imfing/issues-blog/).</sup>
+<sup>[RSS Feed](./index.xml). Thanks [imfing](https://github.com/imfing/issues-blog/).</sup>
