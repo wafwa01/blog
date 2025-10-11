@@ -11,3 +11,8 @@
 [tableOfContents]
   startLevel = 2
   endLevel = 4
+
+[blackfriday]
+  extensions = (
+    "hardlinebreak"
+  )
