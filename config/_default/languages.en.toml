@@ -10,7 +10,7 @@ title = "Blog"
 description = "Publish GitHub Issues as blog or newsletter via GitHub actions automatically"
 copyright = "© 2025"
 
-dateFormat = "2 January 2006"
+dateFormat = "2006 0201 12:00:00"
 
 [author]
   # name = ""
