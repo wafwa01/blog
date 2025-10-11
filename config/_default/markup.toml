@@ -13,6 +13,5 @@
   endLevel = 4
 
 [blackfriday]
-  extensions = (
-    "hardlinebreak"
-  )
+  hardLineBreak = true
+  
