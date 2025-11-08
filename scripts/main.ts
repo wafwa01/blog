@@ -56,6 +56,7 @@ const octokit = new Octokit({
   baseUrl: String(config.baseUrl),
 });
 
+
 // Iterate over all issues
 const iterator = octokit.paginate.iterator(
   octokit.rest.issues.listForRepo,

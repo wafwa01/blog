@@ -12,6 +12,6 @@ build: fetch
 	hugo --gc --minify
 
 # Clean up generated files
-clean:
-	rm -rf public/
-	find content/posts -type f -name "*.md" ! -name "_index.md" -delete
+# clean:
+# 	rm -rf public/
+# 	find content/posts -type f -name "*.md" ! -name "_index.md" -delete
